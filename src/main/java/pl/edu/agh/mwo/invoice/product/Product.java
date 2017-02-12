@@ -19,13 +19,10 @@ public abstract class Product {
 	}
 
 	public String getName() throws IllegalArgumentException {
-		
-		return name;
-		
-		
+		return name;		
 	}
 
-	public BigDecimal getPrice() {
+	public BigDecimal getPriceWithoutTax() {
 		return price;
 	}
 
